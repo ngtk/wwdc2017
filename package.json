@@ -1,0 +1,21 @@
+{
+    "name": "wwdc2017",
+    "displayName": "WWDC2017",
+    "description": "An Xcode color theme inspired by the colors used in Apple's WWDC 2017 slides.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "WWDC2017",
+                "uiTheme": "vs-dark",
+                "path": "./themes/WWDC2017-color-theme.json"
+            }
+        ]
+    }
+}

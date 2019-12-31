@@ -1,0 +1,91 @@
+{
+	"name": "WWDC2017",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#23252B",
+		"editor.foreground": "#FFFFFF",
+		"activityBarBadge.background": "#515B70",
+		"sideBarTitle.foreground": "#FFFFFF"
+	},
+	"tokenColors": [
+		{
+			"name": "Other",
+			"scope": [
+				"support.function.any-method",
+				"punctuation.definition.arguments",
+				"punctuation.separator.argument-label",
+				"source",
+				"punctuation.separator.generic-parameter-clause",
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#6C7986"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#FC6A5D"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#D0BF69"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.other",
+				"storage.modifier",
+				"storage.type",
+				"keyword.control.import",
+			],
+			"settings": {
+				"foreground": "#FC5FA3"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Type Definition",
+			"scope": [
+				"meta.definition.type.struct",
+			],
+			"settings": {
+				"foreground": "#5DD8FF"
+			}
+		},
+		{
+			"name": "Type Definition",
+			"scope": [
+				"meta.definition.type.body",
+			],
+			"settings": {
+				"foreground": "#41A1C0"
+			}
+		},
+	]
+}
