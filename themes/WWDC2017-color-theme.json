@@ -11,10 +11,10 @@
 		{
 			"name": "Other",
 			"scope": [
-				"support.function.any-method",
+				"punctuation.section.scope",
 				"punctuation.definition.arguments",
 				"punctuation.separator.argument-label",
-				"source",
+				"meta.definition.type.body",
 				"punctuation.separator.generic-parameter-clause",
 			],
 			"settings": {
@@ -51,10 +51,10 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword.other",
+				"keyword",
 				"storage.modifier",
+				"entity.name.function",
 				"storage.type",
-				"keyword.control.import",
 			],
 			"settings": {
 				"foreground": "#FC5FA3"
@@ -73,6 +73,8 @@
 			"name": "Type Definition",
 			"scope": [
 				"meta.definition.type.struct",
+				"entity.name.type",
+				"entity.name.class",
 			],
 			"settings": {
 				"foreground": "#5DD8FF"
@@ -82,9 +84,29 @@
 			"name": "Type Definition",
 			"scope": [
 				"meta.definition.type.body",
+				"variable.other",
 			],
 			"settings": {
 				"foreground": "#41A1C0"
+			}
+		},
+		{
+			"name": "Project Function and Method Names",
+			"scope": [
+				"meta.function-call",
+			],
+			"settings": {
+				"foreground": "#67B7A4"
+			}
+		},
+		{
+			"name": "Project Class Names",
+			"scope": [
+				"meta.inheritance-clause",
+				"constant.other",
+			],
+			"settings": {
+				"foreground": "#9EF1DD"
 			}
 		},
 	]
